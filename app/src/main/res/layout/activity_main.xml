@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coffee_business"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee Cafe"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffb3"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get a coffee, share a smile!!"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="26sp"
+        android:textColor="#ffe6e6" />
+    <TextView
+        android:id="@+id/operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours of Operation: 9 AM to 10 PM"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="20dp"
+        android:textColor="#ffbb99"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="26sp"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Md. Ali Park, Kolkata"
+        android:layout_above="@id/operation"
+        android:textColor="#ffbb99"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact number: 8998989889"
+        android:layout_above="@id/address"
+        android:textColor="#ffbb99"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
